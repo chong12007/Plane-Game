@@ -21,7 +21,7 @@ public class EnemyObj extends GameObj {
         //敌我飞机碰撞检测
         if (this.getRec().intersects(this.frame.planeObj.getRec())){
             //no hitpoint
-           //Plane_game .state = 3;
+           Plane_game .state = 3;
         }
         //敌机的越界消失 判断条件 y > 600  改变后的坐标(-200,-200)
         if (y > 600){
