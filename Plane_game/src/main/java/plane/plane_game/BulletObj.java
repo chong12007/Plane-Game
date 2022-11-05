@@ -16,7 +16,7 @@ public class BulletObj extends GameObj {
         //敌方子弹与我方飞机的碰撞检测
         if (this.getRec().intersects(this.frame.planeObj.getRec())){
             //no hitpoint
-            //Plane_game .state = 3;
+            Plane_game .state = 3;
         }
         //敌方子弹的越界消失 条件 y > 600  改变后的坐标(-300,300)
         if (y > 600){
