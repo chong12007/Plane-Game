@@ -41,7 +41,7 @@ public class Plane_game extends JFrame {
         //设置窗口位置
         this.setLocationRelativeTo(null);
         //设置窗口标题
-        this.setTitle("尚学堂飞机大战");
+        this.setTitle("飞机大战");
 
         GameUtils.gameObjList.add(bgObj);
         GameUtils.gameObjList.add(planeObj);
